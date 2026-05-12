@@ -12,7 +12,7 @@ import MusicPlayer from './components/MusicPlayer';
 
 export default function App() {
   const [started, setStarted] = useState(false);
-  const [songUrl, setSongUrl] = useState<string | null>("https://sowjithsong.edgeone.app/Amma%20Navvu%20Balama.mp3");
+  const [songUrl, setSongUrl] = useState<string | null>("https://comparable-scarlet-qj2swmzuo2.edgeone.app/Amma%20Navvu%20Balama.mp3");
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
